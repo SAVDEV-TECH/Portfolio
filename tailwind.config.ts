@@ -8,6 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        'xs':'1080'
+      },
+      boxShadow: {
+        'custom': '0px 0px 3px blue',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
