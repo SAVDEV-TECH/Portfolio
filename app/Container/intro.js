@@ -29,8 +29,8 @@ function intro() {
             </span>
         </div>
       </div>
-      <span className='flex items-center gap-4 '>
-        <FaXTwitter size={25} />
+      <span className='flex items-center  gap-4 '>
+        <FaXTwitter className=' block cursor-pointer' size={25} />
         <FaLinkedin size={25} arial-label='linkedin' />
         <FaInstagram size={25} />
         <FaGithub size={25} />

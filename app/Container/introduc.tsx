@@ -35,8 +35,9 @@ function introduc() {
     <div className='flex mb-10 md:mb-0  w-[90%] md:sticky md:top-[100px] gap-6 md:w-[50%] text-white flex-col'>
       <h1 className='text-[40px] font-bold'>Saviour Samuel</h1>
       <h2 className='text-[20px] font-[500]'>Front End developer</h2>
+      <h2>Download resume </h2>
       <p className='max-w-[300px] text-[#94a3b8] text-[16px]'>I build accessible, pixel-perfect digital experiences for the web.</p>
-      <div className='flex flex-col gap-6 '>
+      <div className=' hidden  md:flex flex-col gap-6 '>
         <div className='flex gap-5 items-center'>
             <div className={`${activesection === "home" ? 'w-[80px]':'w-[40px]'} transition-[500]  h-[1px] bg-white`}></div>
             <span>
@@ -56,11 +57,11 @@ function introduc() {
             </span>
         </div>
       </div>
-      <span className='flex items-center gap-4 '>
-        <FaXTwitter size={25} />
-        <FaLinkedin size={25} arial-label='linkedin' />
-        <FaInstagram size={25} />
-        <FaGithub size={25} />
+      <span className='flex   items-center gap-4 '>
+      <Link href='/'>  <FaXTwitter className='cursor-pointer hover:text-blue-200 transition-all' size={24} /></Link>  
+       <Link href='jj'>  <FaLinkedin className='cursor-pointer hover:text-blue-200 transition-all' size={24} arial-label='linkedin' /></Link>
+        <FaInstagram className='cursor-pointer hover:text-blue-200 transition-all' size={24} />
+        <FaGithub className='cursor-pointer hover:text-blue-200 transition-all' size={24} />
       </span>
 
     </div>

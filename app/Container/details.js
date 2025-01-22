@@ -11,7 +11,7 @@ function details() {
     <div    className='flex w-[90%]  md:w-[55%] text-[#94a3b8] flex-col items-start md:items-center justify-center'>
  
       <section id='home' className='  flex flex-col gap-6'>
-      <h2 className=' sticky  top-0  md:hidden    font-bold text-white text-[18px]'>About</h2>
+      <h2 className=' sticky  z-50 top-0  md:hidden    font-bold text-white text-[18px]'>About</h2>
         <p className='line-'>I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only
              look great but are meticulously built for performance and usability.
              </p>
@@ -20,7 +20,7 @@ function details() {
 </p>
       </section>
       <section id='experience' className='mt-6 pt-[60px]'>
-      <h2 className=' sticky  top-0  md:hidden    font-bold text-white text-[18px]'>experience</h2>
+      <h2 className=' sticky z-50 top-0  md:hidden  line-clamp-2   font-bold text-white text-[18px]'>experience</h2>
         
 Senior Frontend Engineer, Accessibility · Klaviyo
 Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.
@@ -66,10 +66,10 @@ Build and maintain critical components used to construct Klaviyo’s frontend, a
 JavaScript
  
  
- 
+
       </section>
       <section id='project'>
-      <h2 className=' sticky  top-0  md:hidden    font-bold text-white text-[18px]'>Project</h2>
+      <h2 className=' sticky pb-4 z-[100] top-0  md:hidden    font-bold text-white text-[18px]'>Project</h2>
       <div>
         <div className="flex flex-col  items-start lg:flex-row   md:flex-col cursor-pointer px-4 py-4 rounded-lg hover:bg-[#20192eb4] transition-[500]   mt-6    gap-4    md:items-start  justify-center">
           <Image alt='image' className='rounded-[10px]' src={creativehub} width={200} hieght={200}></Image>
